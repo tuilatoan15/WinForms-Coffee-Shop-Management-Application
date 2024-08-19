@@ -11,10 +11,6 @@ C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project
 C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\obj\Debug\PhanMemQuanLyQuanCAFE.fTableManager.resources
 C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\obj\Debug\PhanMemQuanLyQuanCAFE.fAccountProfile.resources
 C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\obj\Debug\PhanMemQuanLyQuanCAFE.fAdmin.resources
-C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
 C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\Microsoft.ReportViewer.Common.dll
 C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
 C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\Microsoft.ReportViewer.Design.dll
@@ -67,3 +63,15 @@ C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project
 C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\Microsoft.AnalysisServices.AppLocal.dll
 C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\Microsoft.AnalysisServices.AppLocal.Tabular.dll
 C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\Microsoft.AnalysisServices.AppLocal.Core.dll
+C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\x86\SqlServerSpatial160.dll
+C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\x64\SqlServerSpatial160.dll
+C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Toan\OneDrive\Máy tính\Phần mềm quản lí quán cà phê\Project\PhanMemQuanLyQuanCAFE\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll

@@ -33,5 +33,16 @@ namespace PhanMemQuanLyQuanCAFE.Properties {
                 return ((string)(this["XConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-F15;Initial Catalog=QuanLyQuanCaPhe;Integrated Security=True;T" +
+            "rustServerCertificate=True")]
+        public string QuanLyQuanCaPheConnectionString {
+            get {
+                return ((string)(this["QuanLyQuanCaPheConnectionString"]));
+            }
+        }
     }
 }

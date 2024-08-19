@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fAdmin));
             this.tabTaiKhoan = new System.Windows.Forms.TabPage();
             this.panel23 = new System.Windows.Forms.Panel();
@@ -117,6 +119,11 @@
             this.btnAddFood = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dtgvFood = new System.Windows.Forms.DataGridView();
+            this.report = new System.Windows.Forms.TabPage();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.quanLyQuanCaPheDataSet1 = new PhanMemQuanLyQuanCAFE.QuanLyQuanCaPheDataSet1();
+            this.uSPGetListBillByDateForReportBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.uSP_GetListBillByDateForReportTableAdapter = new PhanMemQuanLyQuanCAFE.QuanLyQuanCaPheDataSet1TableAdapters.USP_GetListBillByDateForReportTableAdapter();
             this.tabTaiKhoan.SuspendLayout();
             this.panel23.SuspendLayout();
             this.panel25.SuspendLayout();
@@ -157,6 +164,9 @@
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).BeginInit();
+            this.report.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.quanLyQuanCaPheDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPGetListBillByDateForReportBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tabTaiKhoan
@@ -857,6 +867,7 @@
             this.rpViewer.Controls.Add(this.tabDanhMuc);
             this.rpViewer.Controls.Add(this.tabBanAn);
             this.rpViewer.Controls.Add(this.tabTaiKhoan);
+            this.rpViewer.Controls.Add(this.report);
             this.rpViewer.Location = new System.Drawing.Point(10, 11);
             this.rpViewer.Margin = new System.Windows.Forms.Padding(2);
             this.rpViewer.Name = "rpViewer";
@@ -1125,6 +1136,44 @@
             this.dtgvFood.Size = new System.Drawing.Size(303, 318);
             this.dtgvFood.TabIndex = 4;
             // 
+            // report
+            // 
+            this.report.Controls.Add(this.reportViewer1);
+            this.report.Location = new System.Drawing.Point(4, 22);
+            this.report.Name = "report";
+            this.report.Padding = new System.Windows.Forms.Padding(3);
+            this.report.Size = new System.Drawing.Size(558, 386);
+            this.report.TabIndex = 5;
+            this.report.Text = "Report";
+            this.report.UseVisualStyleBackColor = true;
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.uSPGetListBillByDateForReportBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "PhanMemQuanLyQuanCAFE.Report.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(3, 3);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(552, 380);
+            this.reportViewer1.TabIndex = 0;
+            // 
+            // quanLyQuanCaPheDataSet1
+            // 
+            this.quanLyQuanCaPheDataSet1.DataSetName = "QuanLyQuanCaPheDataSet1";
+            this.quanLyQuanCaPheDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // uSPGetListBillByDateForReportBindingSource
+            // 
+            this.uSPGetListBillByDateForReportBindingSource.DataMember = "USP_GetListBillByDateForReport";
+            this.uSPGetListBillByDateForReportBindingSource.DataSource = this.quanLyQuanCaPheDataSet1;
+            // 
+            // uSP_GetListBillByDateForReportTableAdapter
+            // 
+            this.uSP_GetListBillByDateForReportTableAdapter.ClearBeforeFill = true;
+            // 
             // fAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1136,6 +1185,7 @@
             this.Name = "fAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Giao diện Admin";
+            this.Load += new System.EventHandler(this.fAdmin_Load_1);
             this.tabTaiKhoan.ResumeLayout(false);
             this.panel23.ResumeLayout(false);
             this.panel25.ResumeLayout(false);
@@ -1190,6 +1240,9 @@
             this.panel4.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).EndInit();
+            this.report.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.quanLyQuanCaPheDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPGetListBillByDateForReportBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1284,5 +1337,10 @@
         private System.Windows.Forms.Button btnLastBillsPage;
         private System.Windows.Forms.Button btnFirstBillsPage;
         private System.Windows.Forms.TextBox txbNumPage;
+        private System.Windows.Forms.TabPage report;
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        private System.Windows.Forms.BindingSource uSPGetListBillByDateForReportBindingSource;
+        private QuanLyQuanCaPheDataSet1 quanLyQuanCaPheDataSet1;
+        private QuanLyQuanCaPheDataSet1TableAdapters.USP_GetListBillByDateForReportTableAdapter uSP_GetListBillByDateForReportTableAdapter;
     }
 }

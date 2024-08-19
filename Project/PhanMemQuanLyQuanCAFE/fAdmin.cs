@@ -597,10 +597,12 @@ namespace PhanMemQuanLyQuanCAFE
 
         #endregion
 
-        private void fAdmin_Load(object sender, EventArgs e)
+
+        private void fAdmin_Load_1(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'xDataSet.USP_GetTableList' table. You can move, or remove it, as needed.
-
+            this.uSP_GetListBillByDateForReportTableAdapter.Fill(this.quanLyQuanCaPheDataSet1.USP_GetListBillByDateForReport, dtpkFromDate.Value, dtpkToDate.Value);
+            this.reportViewer1.RefreshReport();       
         }
     }
 }

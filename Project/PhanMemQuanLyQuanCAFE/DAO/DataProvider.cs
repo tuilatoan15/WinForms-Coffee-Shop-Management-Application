@@ -15,7 +15,7 @@ namespace PhanMemQuanLyQuanCAFE.DAO
 
         private DataProvider() { }
 
-        private string connectionSTR = @"Data Source=.\KTEAM;Initial Catalog=X;Integrated Security=True;Encrypt=False";
+        private string connectionSTR = @"Data Source=.\KTEAM;Initial Catalog=QuanLyQuancaPhe;Integrated Security=True;Encrypt=False";
 
         // Thực thi một câu lệnh SQL SELECT và trả về kết quả dưới dạng DataTable
         public DataTable ExecuteQuery(string query, object[] parameter = null)
