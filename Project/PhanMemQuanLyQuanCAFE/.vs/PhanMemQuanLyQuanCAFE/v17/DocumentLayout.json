@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|c:\\users\\toan\\onedrive\\m\u00E1y t\u00EDnh\\ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\project\\phanmemquanlyquancafe\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|solutionrelative:dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|c:\\users\\toan\\onedrive\\m\u00E1y t\u00EDnh\\ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\project\\phanmemquanlyquancafe\\fadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|solutionrelative:fadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|solutionrelative:fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|solutionrelative:fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|solutionrelative:dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\flogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|solutionrelative:flogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\faccountprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|solutionrelative:faccountprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|solutionrelative:flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|solutionrelative:flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\DAO\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\AccountDAO.cs",
+              "ToolTip": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\DAO\\AccountDAO.cs",
+              "RelativeToolTip": "DAO\\AccountDAO.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:33:45.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fAdmin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "fAdmin.Designer.cs",
+              "ToolTip": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fAdmin.Designer.cs",
+              "RelativeToolTip": "fAdmin.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKoEAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:21:17.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fAccountProfile.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fAccountProfile.cs",
+              "RelativeDocumentMoniker": "fAccountProfile.cs",
+              "ToolTip": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fAccountProfile.cs [Design]",
+              "RelativeToolTip": "fAccountProfile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:17:06.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fLogin.Designer.cs",
+              "RelativeDocumentMoniker": "fLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fLogin.Designer.cs",
+              "RelativeToolTip": "fLogin.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:16:13.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fAdmin.cs",
+              "RelativeDocumentMoniker": "fAdmin.cs",
+              "ToolTip": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fAdmin.cs",
+              "RelativeToolTip": "fAdmin.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAMwFcCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T12:58:37.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fAdmin.cs",
+              "RelativeDocumentMoniker": "fAdmin.cs",
+              "ToolTip": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fAdmin.cs [Design]",
+              "RelativeToolTip": "fAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T12:31:51.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\DAO\\DataProvider.cs",
+              "RelativeDocumentMoniker": "DAO\\DataProvider.cs",
+              "ToolTip": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\DAO\\DataProvider.cs",
+              "RelativeToolTip": "DAO\\DataProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T12:02:05.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "fLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fLogin.cs",
+              "RelativeDocumentMoniker": "fLogin.cs",
+              "ToolTip": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fLogin.cs",
+              "RelativeToolTip": "fLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:46:13.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "fLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fLogin.cs",
+              "RelativeDocumentMoniker": "fLogin.cs",
+              "ToolTip": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fLogin.cs [Design]",
+              "RelativeToolTip": "fLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:46:04.339Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
