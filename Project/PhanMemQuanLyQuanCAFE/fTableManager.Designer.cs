@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fTableManager));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thôngTinTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thôngTinCáNhânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.chứcNăngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thanhToánToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thêmMónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thôngTinTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thôngTinCáNhânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lsvBill = new System.Windows.Forms.ListView();
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -57,6 +57,11 @@
             this.btnAddFood = new System.Windows.Forms.Button();
             this.nmFoodCount = new System.Windows.Forms.NumericUpDown();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.emailToannguyenxyz60gmailcomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fBHttpswwwfacebookcomprofilephpid100039999038475ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.githubHttpsgithubcomtuilatoan15ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.youtubeHttpswwwyoutubecomToanNguyenew6nfToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -71,7 +76,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.adminToolStripMenuItem,
             this.chứcNăngToolStripMenuItem,
-            this.thôngTinTàiKhoảnToolStripMenuItem});
+            this.thôngTinTàiKhoảnToolStripMenuItem,
+            this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
@@ -85,6 +91,31 @@
             this.adminToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.adminToolStripMenuItem.Text = "Admin";
             this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
+            // 
+            // chứcNăngToolStripMenuItem
+            // 
+            this.chứcNăngToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thanhToánToolStripMenuItem,
+            this.thêmMónToolStripMenuItem});
+            this.chứcNăngToolStripMenuItem.Name = "chứcNăngToolStripMenuItem";
+            this.chứcNăngToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
+            this.chứcNăngToolStripMenuItem.Text = "Chức năng";
+            // 
+            // thanhToánToolStripMenuItem
+            // 
+            this.thanhToánToolStripMenuItem.Name = "thanhToánToolStripMenuItem";
+            this.thanhToánToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
+            this.thanhToánToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.thanhToánToolStripMenuItem.Text = "Thanh toán";
+            this.thanhToánToolStripMenuItem.Click += new System.EventHandler(this.thanhToánToolStripMenuItem_Click);
+            // 
+            // thêmMónToolStripMenuItem
+            // 
+            this.thêmMónToolStripMenuItem.Name = "thêmMónToolStripMenuItem";
+            this.thêmMónToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
+            this.thêmMónToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.thêmMónToolStripMenuItem.Text = "Thêm món";
+            this.thêmMónToolStripMenuItem.Click += new System.EventHandler(this.thêmMónToolStripMenuItem_Click);
             // 
             // thôngTinTàiKhoảnToolStripMenuItem
             // 
@@ -108,31 +139,6 @@
             this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
-            // 
-            // chứcNăngToolStripMenuItem
-            // 
-            this.chứcNăngToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thanhToánToolStripMenuItem,
-            this.thêmMónToolStripMenuItem});
-            this.chứcNăngToolStripMenuItem.Name = "chứcNăngToolStripMenuItem";
-            this.chứcNăngToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
-            this.chứcNăngToolStripMenuItem.Text = "Chức năng";
-            // 
-            // thanhToánToolStripMenuItem
-            // 
-            this.thanhToánToolStripMenuItem.Name = "thanhToánToolStripMenuItem";
-            this.thanhToánToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
-            this.thanhToánToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.thanhToánToolStripMenuItem.Text = "Thanh toán";
-            this.thanhToánToolStripMenuItem.Click += new System.EventHandler(this.thanhToánToolStripMenuItem_Click);
-            // 
-            // thêmMónToolStripMenuItem
-            // 
-            this.thêmMónToolStripMenuItem.Name = "thêmMónToolStripMenuItem";
-            this.thêmMónToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-            this.thêmMónToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.thêmMónToolStripMenuItem.Text = "Thêm món";
-            this.thêmMónToolStripMenuItem.Click += new System.EventHandler(this.thêmMónToolStripMenuItem_Click);
             // 
             // panel2
             // 
@@ -335,6 +341,45 @@
             this.panel4.Size = new System.Drawing.Size(359, 53);
             this.panel4.TabIndex = 3;
             // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.emailToannguyenxyz60gmailcomToolStripMenuItem,
+            this.fBHttpswwwfacebookcomprofilephpid100039999038475ToolStripMenuItem,
+            this.githubHttpsgithubcomtuilatoan15ToolStripMenuItem,
+            this.youtubeHttpswwwyoutubecomToanNguyenew6nfToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // emailToannguyenxyz60gmailcomToolStripMenuItem
+            // 
+            this.emailToannguyenxyz60gmailcomToolStripMenuItem.Name = "emailToannguyenxyz60gmailcomToolStripMenuItem";
+            this.emailToannguyenxyz60gmailcomToolStripMenuItem.Size = new System.Drawing.Size(415, 22);
+            this.emailToannguyenxyz60gmailcomToolStripMenuItem.Text = "Email: toannguyenxyz60@gmail.com";
+            this.emailToannguyenxyz60gmailcomToolStripMenuItem.Click += new System.EventHandler(this.emailToannguyenxyz60gmailcomToolStripMenuItem_Click);
+            // 
+            // fBHttpswwwfacebookcomprofilephpid100039999038475ToolStripMenuItem
+            // 
+            this.fBHttpswwwfacebookcomprofilephpid100039999038475ToolStripMenuItem.Name = "fBHttpswwwfacebookcomprofilephpid100039999038475ToolStripMenuItem";
+            this.fBHttpswwwfacebookcomprofilephpid100039999038475ToolStripMenuItem.Size = new System.Drawing.Size(415, 22);
+            this.fBHttpswwwfacebookcomprofilephpid100039999038475ToolStripMenuItem.Text = "FB: https://www.facebook.com/profile.php?id=100039999038475";
+            this.fBHttpswwwfacebookcomprofilephpid100039999038475ToolStripMenuItem.Click += new System.EventHandler(this.fBHttpswwwfacebookcomprofilephpid100039999038475ToolStripMenuItem_Click);
+            // 
+            // githubHttpsgithubcomtuilatoan15ToolStripMenuItem
+            // 
+            this.githubHttpsgithubcomtuilatoan15ToolStripMenuItem.Name = "githubHttpsgithubcomtuilatoan15ToolStripMenuItem";
+            this.githubHttpsgithubcomtuilatoan15ToolStripMenuItem.Size = new System.Drawing.Size(415, 22);
+            this.githubHttpsgithubcomtuilatoan15ToolStripMenuItem.Text = "Github: https://github.com/tuilatoan15";
+            this.githubHttpsgithubcomtuilatoan15ToolStripMenuItem.Click += new System.EventHandler(this.githubHttpsgithubcomtuilatoan15ToolStripMenuItem_Click);
+            // 
+            // youtubeHttpswwwyoutubecomToanNguyenew6nfToolStripMenuItem
+            // 
+            this.youtubeHttpswwwyoutubecomToanNguyenew6nfToolStripMenuItem.Name = "youtubeHttpswwwyoutubecomToanNguyenew6nfToolStripMenuItem";
+            this.youtubeHttpswwwyoutubecomToanNguyenew6nfToolStripMenuItem.Size = new System.Drawing.Size(415, 22);
+            this.youtubeHttpswwwyoutubecomToanNguyenew6nfToolStripMenuItem.Text = "Youtube: https://www.youtube.com/@ToanNguyen-ew6nf";
+            this.youtubeHttpswwwyoutubecomToanNguyenew6nfToolStripMenuItem.Click += new System.EventHandler(this.youtubeHttpswwwyoutubecomToanNguyenew6nfToolStripMenuItem_Click);
+            // 
             // fTableManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -395,5 +440,10 @@
         private System.Windows.Forms.ToolStripMenuItem chứcNăngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thanhToánToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thêmMónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem emailToannguyenxyz60gmailcomToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fBHttpswwwfacebookcomprofilephpid100039999038475ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem githubHttpsgithubcomtuilatoan15ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem youtubeHttpswwwyoutubecomToanNguyenew6nfToolStripMenuItem;
     }
 }

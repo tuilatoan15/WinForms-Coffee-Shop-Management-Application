@@ -2,6 +2,7 @@
 using PhanMemQuanLyQuanCAFE.DTO;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
@@ -387,5 +388,76 @@ namespace PhanMemQuanLyQuanCAFE
 
         #endregion
 
+        #region Thông tin chủ sở hữu
+
+        private void emailToannguyenxyz60gmailcomToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string url = @"https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlqmtgfjxDCxZJPlvkrQTjxkdmqhmNHkBKbsmCZGvHDFbSMPfwtkSKsWfrFhJKjsWSjnq";
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi mở liên kết: " + ex.Message);
+            }
+        }
+
+        private void fBHttpswwwfacebookcomprofilephpid100039999038475ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string url = @"https://www.facebook.com/profile.php?id=100039999038475";
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi mở liên kết: " + ex.Message);
+            }
+        }
+
+        private void githubHttpsgithubcomtuilatoan15ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string url = @"https://github.com/tuilatoan15";
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi mở liên kết: " + ex.Message);
+            }
+        }
+
+        private void youtubeHttpswwwyoutubecomToanNguyenew6nfToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string url = @"https://www.youtube.com/@ToanNguyen-ew6nf";
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi mở liên kết: " + ex.Message);
+            }
+        }
+
+        #endregion
     }
 }

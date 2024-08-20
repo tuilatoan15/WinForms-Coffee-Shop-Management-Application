@@ -50,7 +50,7 @@
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(10, 10);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(426, 160);
             this.panel1.TabIndex = 0;
@@ -59,7 +59,7 @@
             // 
             this.btnThoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnThoat.Location = new System.Drawing.Point(318, 118);
-            this.btnThoat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(2);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(94, 30);
             this.btnThoat.TabIndex = 4;
@@ -70,7 +70,7 @@
             // btnDangNhap
             // 
             this.btnDangNhap.Location = new System.Drawing.Point(212, 118);
-            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(2);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(94, 30);
             this.btnDangNhap.TabIndex = 3;
@@ -83,7 +83,7 @@
             this.panel3.Controls.Add(this.txbPassWord);
             this.panel3.Controls.Add(this.lblMatKhau);
             this.panel3.Location = new System.Drawing.Point(16, 66);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(396, 48);
             this.panel3.TabIndex = 2;
@@ -91,11 +91,10 @@
             // txbPassWord
             // 
             this.txbPassWord.Location = new System.Drawing.Point(158, 10);
-            this.txbPassWord.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbPassWord.Margin = new System.Windows.Forms.Padding(2);
             this.txbPassWord.Name = "txbPassWord";
             this.txbPassWord.Size = new System.Drawing.Size(227, 20);
             this.txbPassWord.TabIndex = 1;
-            this.txbPassWord.Text = "0";
             this.txbPassWord.UseSystemPasswordChar = true;
             // 
             // lblMatKhau
@@ -114,7 +113,7 @@
             this.panel2.Controls.Add(this.txbUserName);
             this.panel2.Controls.Add(this.lblTenDangNhap);
             this.panel2.Location = new System.Drawing.Point(16, 10);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(396, 50);
             this.panel2.TabIndex = 0;
@@ -122,11 +121,10 @@
             // txbUserName
             // 
             this.txbUserName.Location = new System.Drawing.Point(158, 10);
-            this.txbUserName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbUserName.Margin = new System.Windows.Forms.Padding(2);
             this.txbUserName.Name = "txbUserName";
             this.txbUserName.Size = new System.Drawing.Size(227, 20);
             this.txbUserName.TabIndex = 1;
-            this.txbUserName.Text = "k9";
             // 
             // lblTenDangNhap
             // 
@@ -148,7 +146,7 @@
             this.ClientSize = new System.Drawing.Size(444, 178);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "fLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";
