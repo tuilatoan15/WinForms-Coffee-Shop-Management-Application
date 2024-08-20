@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fAdmin));
+            this.uSPGetListBillByDateForReportBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.quanLyQuanCaPheDataSet1 = new PhanMemQuanLyQuanCAFE.QuanLyQuanCaPheDataSet1();
             this.tabTaiKhoan = new System.Windows.Forms.TabPage();
             this.panel23 = new System.Windows.Forms.Panel();
             this.btnResetPassWord = new System.Windows.Forms.Button();
@@ -121,9 +123,10 @@
             this.dtgvFood = new System.Windows.Forms.DataGridView();
             this.report = new System.Windows.Forms.TabPage();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.quanLyQuanCaPheDataSet1 = new PhanMemQuanLyQuanCAFE.QuanLyQuanCaPheDataSet1();
-            this.uSPGetListBillByDateForReportBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.uSP_GetListBillByDateForReportTableAdapter = new PhanMemQuanLyQuanCAFE.QuanLyQuanCaPheDataSet1TableAdapters.USP_GetListBillByDateForReportTableAdapter();
+            this.btnNext = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.uSPGetListBillByDateForReportBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanLyQuanCaPheDataSet1)).BeginInit();
             this.tabTaiKhoan.SuspendLayout();
             this.panel23.SuspendLayout();
             this.panel25.SuspendLayout();
@@ -165,9 +168,17 @@
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).BeginInit();
             this.report.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.quanLyQuanCaPheDataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.uSPGetListBillByDateForReportBindingSource)).BeginInit();
             this.SuspendLayout();
+            // 
+            // uSPGetListBillByDateForReportBindingSource
+            // 
+            this.uSPGetListBillByDateForReportBindingSource.DataMember = "USP_GetListBillByDateForReport";
+            this.uSPGetListBillByDateForReportBindingSource.DataSource = this.quanLyQuanCaPheDataSet1;
+            // 
+            // quanLyQuanCaPheDataSet1
+            // 
+            this.quanLyQuanCaPheDataSet1.DataSetName = "QuanLyQuanCaPheDataSet1";
+            this.quanLyQuanCaPheDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tabTaiKhoan
             // 
@@ -792,6 +803,7 @@
             // 
             // plDoanhthu
             // 
+            this.plDoanhthu.Controls.Add(this.btnNext);
             this.plDoanhthu.Controls.Add(this.txbNumPage);
             this.plDoanhthu.Controls.Add(this.btnPreviousBillsPage);
             this.plDoanhthu.Controls.Add(this.btnLastBillsPage);
@@ -1160,19 +1172,19 @@
             this.reportViewer1.Size = new System.Drawing.Size(552, 380);
             this.reportViewer1.TabIndex = 0;
             // 
-            // quanLyQuanCaPheDataSet1
-            // 
-            this.quanLyQuanCaPheDataSet1.DataSetName = "QuanLyQuanCaPheDataSet1";
-            this.quanLyQuanCaPheDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // uSPGetListBillByDateForReportBindingSource
-            // 
-            this.uSPGetListBillByDateForReportBindingSource.DataMember = "USP_GetListBillByDateForReport";
-            this.uSPGetListBillByDateForReportBindingSource.DataSource = this.quanLyQuanCaPheDataSet1;
-            // 
             // uSP_GetListBillByDateForReportTableAdapter
             // 
             this.uSP_GetListBillByDateForReportTableAdapter.ClearBeforeFill = true;
+            // 
+            // btnNext
+            // 
+            this.btnNext.Location = new System.Drawing.Point(391, 307);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(75, 23);
+            this.btnNext.TabIndex = 6;
+            this.btnNext.Text = "Next";
+            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // fAdmin
             // 
@@ -1186,6 +1198,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Giao diện Admin";
             this.Load += new System.EventHandler(this.fAdmin_Load_1);
+            ((System.ComponentModel.ISupportInitialize)(this.uSPGetListBillByDateForReportBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quanLyQuanCaPheDataSet1)).EndInit();
             this.tabTaiKhoan.ResumeLayout(false);
             this.panel23.ResumeLayout(false);
             this.panel25.ResumeLayout(false);
@@ -1241,8 +1255,6 @@
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).EndInit();
             this.report.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.quanLyQuanCaPheDataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.uSPGetListBillByDateForReportBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1342,5 +1354,6 @@
         private System.Windows.Forms.BindingSource uSPGetListBillByDateForReportBindingSource;
         private QuanLyQuanCaPheDataSet1 quanLyQuanCaPheDataSet1;
         private QuanLyQuanCaPheDataSet1TableAdapters.USP_GetListBillByDateForReportTableAdapter uSP_GetListBillByDateForReportTableAdapter;
+        private System.Windows.Forms.Button btnNext;
     }
 }
