@@ -3,7 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|c:\\users\\toan\\onedrive\\m\u00E1y t\u00EDnh\\ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\project\\phanmemquanlyquancafe\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Toan\\AppData\\Local\\Temp\\.vsdbgsrc\\15eb85ad23e6cdafdb7a06815aadee2d87565f42d2ffc5f4afc8d854a72b8751\\DataSet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\report.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|solutionrelative:report.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{014B7838-E5B0-4CE8-8747-C60EA7C0DD13}|PhanMemQuanLyQuanCAFE.csproj|solutionrelative:dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -22,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +41,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report.rdlc [Design]",
+              "DocumentMoniker": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\Report.rdlc",
+              "RelativeDocumentMoniker": "Report.rdlc",
+              "ToolTip": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\Report.rdlc [Design]",
+              "RelativeToolTip": "Report.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-08-20T13:26:41.632Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DataSet.cs",
+              "DocumentMoniker": "C:\\Users\\Toan\\AppData\\Local\\Temp\\.vsdbgsrc\\15eb85ad23e6cdafdb7a06815aadee2d87565f42d2ffc5f4afc8d854a72b8751\\DataSet.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\15eb85ad23e6cdafdb7a06815aadee2d87565f42d2ffc5f4afc8d854a72b8751\\DataSet.cs",
+              "ToolTip": "C:\\Users\\Toan\\AppData\\Local\\Temp\\.vsdbgsrc\\15eb85ad23e6cdafdb7a06815aadee2d87565f42d2ffc5f4afc8d854a72b8751\\DataSet.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\15eb85ad23e6cdafdb7a06815aadee2d87565f42d2ffc5f4afc8d854a72b8751\\DataSet.cs",
+              "ViewState": "AQIAAMEDAAAAAAAAAAAlwNsDAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T13:24:54.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DataProvider.cs",
               "DocumentMoniker": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\DAO\\DataProvider.cs",
               "RelativeDocumentMoniker": "DAO\\DataProvider.cs",
@@ -42,12 +73,11 @@
               "RelativeToolTip": "DAO\\DataProvider.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T10:54:37.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T10:54:37.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "fTableManager.cs",
               "DocumentMoniker": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fTableManager.cs",
               "RelativeDocumentMoniker": "fTableManager.cs",
@@ -59,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "fTableManager.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Toan\\OneDrive\\M\u00E1y t\u00EDnh\\Ph\u1EA7n m\u1EC1m qu\u1EA3n l\u00ED qu\u00E1n c\u00E0 ph\u00EA\\Project\\PhanMemQuanLyQuanCAFE\\fTableManager.cs",
               "RelativeDocumentMoniker": "fTableManager.cs",
